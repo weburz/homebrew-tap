@@ -1,28 +1,28 @@
 class Terox < Formula
   desc "Project generator built in Go"
   homepage "https://github.com/weburz/terox"
-  version "0.2.0"
+  version "0.3.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/weburz/terox/releases/download/v0.2.0/terox_0.2.0_darwin_arm64.tar.gz"
-      sha256 "e70d1634cffa1f7503dd15b6b4232e28d182a33cc902887cc2c1541a3e34796b"
+      url "https://github.com/weburz/terox/releases/download/v0.3.0/terox_0.3.0_darwin_arm64.tar.gz"
+      sha256 "112252181c09d2f437c1ccd78f92b704dbb84b978cec7b8b207ce359521f73c4"
     end
     on_intel do
-      url "https://github.com/weburz/terox/releases/download/v0.2.0/terox_0.2.0_darwin_amd64.tar.gz"
-      sha256 "d553a0e524d347a9c02f834da2b544a08ff29dbc612993efb6546abfe42b9c9a"
+      url "https://github.com/weburz/terox/releases/download/v0.3.0/terox_0.3.0_darwin_amd64.tar.gz"
+      sha256 "1d13b838318725c7a604358d5dadc827abb98d46f42da08b237f3b80587785c0"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/weburz/terox/releases/download/v0.2.0/terox_0.2.0_linux_arm64.tar.gz"
-      sha256 "b09f2d6b255d80f1c9cfe4104e10426bafd9b6daa047141e9a7f0d40a971fd3c"
+      url "https://github.com/weburz/terox/releases/download/v0.3.0/terox_0.3.0_linux_arm64.tar.gz"
+      sha256 "066d9aa76307f41a57ae1a5edc1bde1322730bef6a554f397de5759ec694789e"
     end
     on_intel do
-      url "https://github.com/weburz/terox/releases/download/v0.2.0/terox_0.2.0_linux_amd64.tar.gz"
-      sha256 "784023f8c4c630725caf56137d17066a9f7f7c0fdac2de29caa967665945012e"
+      url "https://github.com/weburz/terox/releases/download/v0.3.0/terox_0.3.0_linux_amd64.tar.gz"
+      sha256 "97b04ad2a4a4aef6e9b4b6d05424f1f81bc6bdf1e06f1513b0ead1977ada57ec"
     end
   end
 
